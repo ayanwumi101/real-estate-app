@@ -1,0 +1,611 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: ubuntu-light;
+    background-color: rgb(238, 238, 238);
+}
+@font-face {
+    font-family: ubuntu-light;
+    src: url('../Ubuntu/Ubuntu-Light.ttf');
+}
+@font-face {
+    font-family: ubuntu-medium;
+    src: url('../Ubuntu/Ubuntu-Medium.ttf');
+}
+@font-face {
+    font-family: ubuntu-bold;
+    src: url('../Ubuntu/Ubuntu-Bold.ttf');
+}
+.btn1{
+    border-radius: 5px 0px 0px 0px;
+    background-color: rgb(5, 13, 32);
+    color: white;
+    padding: 9px 15px;
+    border:none;
+}
+.btn2{
+    border-radius: 0px 5px 0px 0px;
+    padding: 9px 15px;
+    background-color: rgb(17, 105, 163);
+    border:none;
+    color: white;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    color: rgb(10, 30, 82);
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.search{
+    background-color: white;
+    padding: 7px;
+    width: 45%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.input-top{
+    margin-top: 30px;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    padding: 7px;
+    border: none;
+    width: 80%;
+    outline: none;
+    background-image: url('../images/searchicon.png');
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    padding-left: 40px;
+}
+.checkbox{
+    width: 300px;
+}
+.search-btn{
+    padding: 7px 12px;
+    background-color: rgb(17, 105, 163);
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}
+.logo{
+    font-size: 1.6rem;
+    font-family: ubuntu-bold;
+    margin-right: 2rem;
+}
+.homepage{
+    background-image: url('../images/house1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+.homepage-container{
+    padding: 70px 0px 50px 40px;
+    margin: 0px 0px 140px 60px;
+}
+.text{
+    width: 350px;
+    text-align: left;
+    font-size: 150px;
+    color: white;
+    font-family: ubuntu-bold;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+a:hover{
+    color: rgb(106, 181, 194);
+}
+.login{
+    float: right;
+    display: flex;
+    align-items: center;
+    font-family: ubuntu-medium;
+}
+
+.products{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 50px 70px;
+    color:rgb(1, 3, 17);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin: 0px 10px 0px 10px;
+}
+.line{
+    width: 120px;
+    height: 5px;
+    background-color: rgb(1, 3, 17);
+    margin: auto;
+    text-align: center;
+}
+
+.latest{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+    margin-bottom: 3.5rem;
+    
+}
+.property-text{
+    text-align: justify;
+    max-width: 500px;
+    margin-bottom: 3.5rem;
+    border-left: 4px solid grey;
+    padding: 10px;
+}
+.latest-property{
+    margin: 60px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: ubuntu-medium;
+}
+a{
+    text-decoration: none;
+    color: rgb(10, 30, 82);
+    font-family: ubuntu-medium;
+}
+.latest-img{
+    width: 70px;
+    height: 70px;
+    margin-right: 8px;
+    border-radius: 50%;
+    border: 5px solid rgb(238, 238, 238);
+    box-shadow: 5px 5px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.icon{
+    background-color: lightgray;
+    border-radius: 50%;
+    padding: 8px;
+}
+.heading{
+    margin: 30px 0px;
+    font-family: ubuntu-bold;
+    color: black;
+    margin: auto;
+    text-align: center;
+}
+.founders{
+    font-family: ubuntu-medium;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.founder{
+    text-align: center;
+    width: 320px;
+    height: auto;
+    box-shadow: 5px 5px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 45px;
+}
+.founder-icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 5px 5px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.overall-home{
+    margin-top: 35px;
+    position: relative;
+}
+.home-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    margin: 45px 70px;
+    font-family: ubuntu-light;
+}
+.home-image{
+    width: 100%;
+    height: 220px;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 10px;
+}
+.home{
+    width: 320px;
+    height: auto;
+    color: rgb(80, 67, 67);
+    margin: 20px 0px 30px 0px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    background-color: white;
+}
+.wrapper{
+    margin-bottom: 80px;
+}
+.price{
+    font-family: ubuntu-bold;
+}
+.profile{
+    margin: 10px;
+    padding-bottom: 20px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.bold{
+    font-family: ubuntu-bold;
+}
+.thin-line{
+    width: 100%;
+    background-color: lightgrey;
+    height: 1.2px;
+    margin: 10px 0px;
+}
+.toggler-icon{
+    display: none;
+}
+
+
+.seller-details{
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 10px 5px 5px;
+    width: auto;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: rgb(117, 109, 109);
+}
+.details{
+    text-align: center;
+    margin: auto;
+}
+.seller-detail{
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 10px 5px 0;
+    width: 150px;
+    color: rgb(117, 109, 109);
+}
+small{
+    color: #4ae;
+}
+.counters{
+    display: flex;
+    font-family: ubuntu-bold;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    max-width: 450px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.first-count > span{
+    font-family: ubuntu-light;
+}
+.differ{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.other-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+.stars{
+    display: flex;
+    align-items: center;
+}
+.reviews{
+    display: flex;
+}
+.seller-img{
+    border: 2px solid rgb(167, 163, 163);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;margin-right: 5px;
+}
+
+.new-btns{
+    margin-left: 27.5%;
+}
+.footer-container{
+    position: relative;
+    background: linear-gradient(rgb(46, 48, 47), rgb(70, 68, 68));
+    padding: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.home .content{
+    font-family: ubuntu-light;
+}
+.home span{
+    font-family: ubuntu-light;
+}
+.back-home{
+    background-color: #4ae;
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: none;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    bottom: 0;
+    margin: 50px 0 0 0;
+}
+.column{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.label{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.label span{
+    font-family: ubuntu-medium;
+    font-size: larger;
+}
+.block li{
+    display: block;
+}
+.column > li a{
+    margin: 15px 10px;
+    color: white;
+}
+.location-container{
+    width: 400px;
+    height: auto;
+}
+.contact-bg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.places{
+    margin: 55px 0 20px 0;
+}
+.telephone{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    background: none;
+    color: white;
+    max-width: auto;
+    height: auto;
+    border: 2px solid #4ae;
+    background-color: #4ae;
+    box-shadow: 5px 5px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.service{
+    background-color: #4ae;
+    padding: 7px 15px;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.contact-container{
+   background-image: url('../images/1.jpg');
+   background-attachment: fixed;
+   background-color: rgba(0, 0, 0, 0.9);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   padding: 40px 0;
+   height: 100%;
+}
+
+.instagram{
+    background: none;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+}
+.twitter{
+    position: absolute;
+    top: 8px;
+    right: 7px;
+    /* margin: auto; */
+}
+.instagram:hover{
+    background-color: #4ae;
+}
+textarea{
+    resize: none;
+}
+.rent-btn, .buy-btn, .cancel-btn{
+    padding: 5px 12px;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.buy-btn, .rent-btn{
+    background-color: rgb(32, 129, 194);
+}
+.cancel-btn{
+    background-color: tomato;
+}
+.action-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+
+@media  screen and (max-width: 600px) {
+    .search{
+        width: 100%;
+    }
+    .column{
+        margin: 15px 0 30px 0;
+        width: 100%;
+    }
+
+    .column li{
+        margin: 8px 4px;
+    }
+
+    .column > li a{
+        margin: 15px 1px;
+        color: white;
+    }
+    .founder{
+        width: 400px;
+    }
+    
+    .homepage-container{
+        margin-left: -6%;
+        padding-right: 10px;
+    }
+    
+    .places{
+        margin: 10px 15px;
+    }
+    .comments{
+        padding: 10px;
+    }
+    .navbar{
+        display: block;
+        width:100%;
+        height: auto;
+    }
+    .login{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+
+    .links{
+        display: block;
+    }
+    .other-details{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        margin: auto;
+    
+    }
+    .links li{
+        display: block;
+        width: 100%;
+        margin: 15px 0;
+    }
+    .logo{
+        margin-bottom: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .heading{
+        width: 100%;
+    }
+    .toggler-icon{
+        display: block;
+        text-align: right;
+        float: right;
+        margin-left: 85%;
+        font-family: ubuntu-bold;
+        font-size: xx-large;
+        color: black;
+        
+    }
+    .new-btns{
+        margin-left: 0%;
+        text-align: left;
+        float: left;
+    }
+    .new-form{
+        width: 100%;
+    }
+    .new-form-container{
+        margin: 20px 15px;
+    }
+    .quote-text{
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .first-count{
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .services{
+        margin: 5px 10px;
+    }
+    .sellers-container{
+        background-color: white;
+        box-shadow: 5px 5px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 100%;
+    }
+   
+}
