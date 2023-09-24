@@ -29,7 +29,7 @@ const Homepage = () => {
                                 <input type="text" placeholder='Search Properties ......' className='input'/>
                                 <button type='submit' className='search-btn'>Search</button>
                         </form>
-                    </div>
+                </div>
                     
                     <div className='checkbox'>
                         <input type="checkbox" checked /> I agree to the terms and privacy policy
